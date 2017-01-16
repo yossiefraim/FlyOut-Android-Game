@@ -14,8 +14,6 @@ import android.widget.Toast;
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 
-import static coil.gla.survivorgame.R.raw.intro;
-
 public class MainActivity extends Activity {
 
     private ImageView imageView;

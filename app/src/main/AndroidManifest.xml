@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="coil.gla.survivorgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_Screen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Game"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+        <activity
+        android:name=".About"
+        android:keepScreenOn="true"
+        android:screenOrientation="landscape" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="47743c8081b28f8211d925bf4e4871cbd03b506e" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

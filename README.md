@@ -5,10 +5,15 @@
 **Game description:**
 
 Fly throw the mountains to the enemy base and avoid the enemy missile that coming on you!
+
 Tap the screen to fly high and release to fly low.
+
 When you fly closer to enemy base the enemy will be fire more missiles and they will fly faster on you!
+
 Download now and enjoy from a nice graphic game that passing your time with a smile !
+
 Try to beat your own score and share it with your friend!
+
 
 **Features:**
 

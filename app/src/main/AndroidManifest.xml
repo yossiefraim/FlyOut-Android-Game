@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="coil.gla.survivorgame">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,13 +28,18 @@
             android:keepScreenOn="true"
             android:screenOrientation="landscape" />
         <activity
-        android:name=".About"
-        android:keepScreenOn="true"
-        android:screenOrientation="landscape" />
+            android:name=".About"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".Settings"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape" />
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="47743c8081b28f8211d925bf4e4871cbd03b506e" />
+
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -13,7 +13,7 @@ import io.fabric.sdk.android.Fabric;
 
 public class Splash_Screen extends Activity {
 
-    private static int SPLASH_TIMEOUT = 4000;
+    private static int SPLASH_TIMEOUT = 2500;
     private ImageView splashbg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -64,7 +64,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     @Override
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
         bg = new Background(BitmapFactory.decodeResource(getResources(), R.drawable.background));
-        player = new Player(BitmapFactory.decodeResource(getResources(), R.drawable.player), 100, 67, 4);
+        player = new Player(BitmapFactory.decodeResource(getResources(), R.drawable.player), 62, 48, 2);
         smoke = new ArrayList<Smokepuff>();
         enemies = new ArrayList<Enemy>();
         topBorders = new ArrayList<TopBorder>();
@@ -175,13 +175,13 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
                 // first airplane always goes down the middle
                 if (enemies.size() == 0) {
                     enemies.add(new Enemy(BitmapFactory.decodeResource(getResources(), R.drawable.missile),
-                            WIDTH + 10, HEIGHT / 2, 92, 23, player.getScore(), 11));
+                            WIDTH + 10, HEIGHT / 2, 92, 19, player.getScore(), 11));
                 }
                 else {
                     enemies.add(new Enemy(BitmapFactory.decodeResource(getResources(), R.drawable.missile),
                             WIDTH + 10,
                             (int) (rand.nextDouble() * (HEIGHT - (maxBorderHeight * 2)) + maxBorderHeight),
-                            92, 23, player.getScore(), 11));
+                            92, 19, player.getScore(), 11));
                 }
 
                 // reset timer
@@ -226,7 +226,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
                 reset = true;
                 dissapear = true;
                 explosion = new Explosion(BitmapFactory.decodeResource(getResources(), R.drawable.explosion),
-                    player.getX(),player.getY(), 64, 64, 25);
+                    player.getX()-20,player.getY()-20, 128, 128, 10);
             }
             explosion.update();
 

@@ -20,11 +20,8 @@ public class Explosion {
         this.height = h;
         Bitmap[] image = new Bitmap[numFrames];
         spritesheet = res;
-        for (int i = 0; i < image.length; i++) {
-            if (i % 5 == 0 && i > 0) {
-                row++;
-            }
-            image[i] = Bitmap.createBitmap(spritesheet, (i-(5*row))*width, row*height, width, height);
+        for(int i=0 ; i < image.length ; i++) {
+            image[i] = Bitmap.createBitmap(spritesheet,i*width,0,width,height);
         }
         animation.setFrames(image);
         animation.setDelay(10);

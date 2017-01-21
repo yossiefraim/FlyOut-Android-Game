@@ -13,8 +13,11 @@ Try to beat your own score and share it with your friend!
 **Features:**
 
 One Touch Control Easy to play: tap screen to fly.
+
 Easy and fun to play, but challenging.
+
 Nice graphic and background music.
+
 Show your high score.
 
 https://docs.google.com/document/d/1Puf5KewujavJpMEM5gfh0C6XBnKYlbL7l_utGHm3MJo/

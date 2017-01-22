@@ -1,6 +1,9 @@
 # FlyOut!
+![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/GameImg.jpeg)
 ![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/MainScreen.jpeg)
 ![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/Gameplay.jpeg)
+
+-- All Images for Google Play inside "app" folders.
 
 **Game description:**
 

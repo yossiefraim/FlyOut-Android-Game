@@ -1,5 +1,5 @@
 # FlyOut!
-![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/GameImg.jpeg)
+![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/GameImg.png)
 ![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/MainScreen.jpeg)
 ![alt tag](https://github.com/GalAmitai/FlyOut-Android-Game/blob/master/app/Gameplay.jpeg)
 

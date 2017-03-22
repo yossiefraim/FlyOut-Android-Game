@@ -13,12 +13,11 @@ import io.fabric.sdk.android.Fabric;
 
 public class Splash_Screen extends Activity {
 
-    private static int SPLASH_TIMEOUT = 2500;
+    /*private static int SPLASH_TIMEOUT = 2500;
     private ImageView splashbg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
         // Set Screen to Full Screen
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         // Turn off title
@@ -35,5 +34,5 @@ public class Splash_Screen extends Activity {
                 finish();
             }
         },SPLASH_TIMEOUT);
-    }
+    }*/
 }
